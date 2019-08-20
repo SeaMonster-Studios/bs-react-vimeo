@@ -2,7 +2,7 @@
 external make:
   (
     ~video: int,
-    ~id: string,
+    ~id: string=?,
     ~className: string=?,
     ~width: int=?,
     ~height: int=?,
