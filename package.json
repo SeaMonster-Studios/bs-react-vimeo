@@ -1,6 +1,6 @@
 {
   "name": "bs-react-vimeo",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Bucklescript/ReasonReact bindings for react-vimeo",
   "main": "Index.re",
   "scripts": {
@@ -34,9 +34,5 @@
   },
   "dependencies": {
     "@u-wave/react-vimeo": "^0.8.1"
-  },
-  "files": [
-    "src/Viemo.re",
-    "bsconfig.json"
-  ]
+  }
 }
