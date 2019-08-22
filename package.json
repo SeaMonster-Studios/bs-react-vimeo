@@ -1,6 +1,6 @@
 {
   "name": "bs-react-vimeo",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Bucklescript/ReasonReact bindings for react-vimeo",
   "main": "Index.re",
   "scripts": {
@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/SeaMonster-Studios/bs-react-vimeo#readme",
   "dependencies": {
+    "@u-wave/react-vimeo": "^0.8.1",
     "bs-platform": "^5.0.6",
     "reason-react": "^0.7.0"
   }

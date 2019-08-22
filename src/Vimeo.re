@@ -1,15 +1,15 @@
 [@bs.module "@u-wave/react-vimeo"] [@react.component]
 external make:
   (
-    ~video: int,
+    ~video: string,
     ~id: string=?,
     ~className: string=?,
-    ~width: int=?,
-    ~height: int=?,
+    ~width: string=?,
+    ~height: string=?,
     ~paused: bool=?,
     ~volume: int=?,
     ~start: int=?,
-    ~autopause: bool=?,
+    ~autoplay: bool=?,
     ~showByline: bool=?,
     ~color: string=?,
     ~controls: bool=?,
