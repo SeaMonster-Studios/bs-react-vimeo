@@ -1,6 +1,6 @@
 {
   "name": "bs-react-vimeo",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Bucklescript/ReasonReact bindings for react-vimeo",
   "main": "Index.re",
   "scripts": {
