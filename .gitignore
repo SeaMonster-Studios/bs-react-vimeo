@@ -26,3 +26,4 @@ lib/bs
 .merlin
 .bsb.lock
 *.bs.js
+.DS_Store
