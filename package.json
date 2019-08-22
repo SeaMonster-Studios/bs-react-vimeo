@@ -1,6 +1,6 @@
 {
   "name": "bs-react-vimeo",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Bucklescript/ReasonReact bindings for react-vimeo",
   "main": "Index.re",
   "scripts": {
@@ -13,11 +13,12 @@
     "url": "git+ssh://git@github.com/SeaMonster-Studios/bs-react-vimeo.git"
   },
   "keywords": [
-    "bucklescript",
-    "vimeo",
-    "reasonml",
-    "reasonreact",
-    "react"
+    "BuckleScript",
+    "Vimeo",
+    "ReasonML",
+    "ReasonReact",
+    "Reason",
+    "React"
   ],
   "author": "Logan Call @ SeaMonster Studios",
   "license": "MIT",
@@ -25,9 +26,17 @@
     "url": "https://github.com/SeaMonster-Studios/bs-react-vimeo/issues"
   },
   "homepage": "https://github.com/SeaMonster-Studios/bs-react-vimeo#readme",
-  "dependencies": {
-    "@u-wave/react-vimeo": "^0.8.1",
-    "bs-platform": "^5.0.6",
+  "peerDependencies": {
+    "bs-platform": "^5.0.6"
+  },
+  "devDependencies": {
     "reason-react": "^0.7.0"
-  }
+  },
+  "dependencies": {
+    "@u-wave/react-vimeo": "^0.8.1"
+  },
+  "files": [
+    "src/Viemo.re",
+    "bsconfig.json"
+  ]
 }
