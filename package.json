@@ -1,8 +1,8 @@
 {
   "name": "bs-react-vimeo",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Bucklescript/ReasonReact bindings for react-vimeo",
-  "main": "Index.re",
+  "main": "src/Vimeo.re",
   "scripts": {
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
