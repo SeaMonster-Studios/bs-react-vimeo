@@ -27,3 +27,4 @@ lib/bs
 .bsb.lock
 *.bs.js
 .DS_Store
+lib
